@@ -21,7 +21,7 @@ http://0.0.0.0:8888/?token={here goes your token} :: /home/jovyan
 ```
 Please copy the provided link to the browser.
 
-- other
+- Streaming
 ```bash
 # register kafka connector
 make register-postgres
