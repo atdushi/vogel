@@ -27,7 +27,7 @@ Please copy the provided link to the browser.
 make register-postgres
 
 # create-consumer
-make create-costomer
+make create-consumer
 
 # run-streamer
 make run-streamer
