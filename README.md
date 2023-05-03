@@ -9,7 +9,9 @@ This is a very simple example of PostgreSQL CDC via amazing Debezium Connector.
 docker-compose up --build
 ```
 - to get the jupyter token, please run:
-```
+```bash
+make get-jupyter-token
+# or
 docker-compose -f docker-compose.yml exec jupyter-local jupyter notebook list
 ```
 In answer you will receive:
@@ -18,6 +20,18 @@ Currently running servers:
 http://0.0.0.0:8888/?token={here goes your token} :: /home/jovyan
 ```
 Please copy the provided link to the browser.
+
+- other
+```bash
+# register kafka connector
+make register-postgres
+
+# create-consumer
+make create-costomer
+
+# run-streamer
+make run-streamer
+```
 
 
 ## Data Schema
